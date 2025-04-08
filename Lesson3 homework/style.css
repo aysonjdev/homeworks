@@ -1,0 +1,48 @@
+
+body{
+    margin: 2%;
+
+}
+
+header{
+    height: 60vh;
+    background-color: #3856a6;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:
+
+}
+
+section{
+    height: 50vh;
+    width: 30%;
+    background-color: lightblue;
+    padding: 1%;
+    margin: 2vh 0;
+}
+
+footer{
+    height: 90vh;
+    background-color: #3856a6;
+
+}
+
+p{
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section, header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
