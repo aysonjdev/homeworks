@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    font-family: Bahnschrift;
+}
+
+section p{
+    width: 80%;
+    font-size: 20px;
+}
+
+section h2{
+    font-size: 40px;
+}
+#first__section{
+    background-color: lightblue;
+}
+
+#second__section{
+    background-color: lightgreen;
+}
+
+#third__section{
+    background-color: lightyellow;
+}
+
+#forth__section{
+    background-color: lightpink;
+}
+
+section a{
+    text-decoration: none;
+    font-size: 70px;
+    color: black;
+}
