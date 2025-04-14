@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #8f0e0e solid 15px;
+    border-left:lightgreen solid 15px;
+    border-right:purple solid 15px;
+    border-bottom:mediumvioletred solid 15px;
+    background: whitesmoke;
+    animation: animation 3s ease infinite alternate;
+}
+
+@keyframes animation {
+from {
+    transform: rotate(180deg)
+}
+    40% { background: black;
+    }
+to {
+    transform: rotate(-200deg)
+}
+}
