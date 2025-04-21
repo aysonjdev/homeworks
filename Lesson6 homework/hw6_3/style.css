@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.registration__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    height: 40vh;
+    width: 22vw;
+    background: rgba(211, 211, 211, 0.07);
+    border: 1px solid rgba(211, 211, 211, 0.66);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+.bottom__section {
+    height: 5vh;
+    width: 22vw;
+    border: 1px solid rgba(211, 211, 211, 0.66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(211, 211, 211, 0.07);
+}
+
+.bottom__section p a {
+    text-decoration: none;
+    color: #257fd5;
+    font-family: "Segoe UI Semibold", sans-serif;
+}
+
+.bottom__section p {
+    margin-right: 5px;
+}
+
+.main__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid lightgray;
+    width: 230px;
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+    height: 25px;
+    margin-top: -10px
+}
+
+.or {
+    margin-top: 30px;
+}
+
+.forgot__password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 12px;
+}
+
+.facebook{
+    font-family: "Segoe UI Semibold", sans-serif;
+    color: #19198e;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.forgot__password>p>a {
+    color: #2784dd;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+    padding: 8px
+}
