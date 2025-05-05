@@ -1,0 +1,7 @@
+@media screen and (max-width: 480px) {
+    .items{
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 48px 24px;
+    }
+}
